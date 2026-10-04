@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html class="no-js ss-preload" lang="en">
+
 <head>
 
     <!--- basic page needs
@@ -93,15 +94,19 @@
 
                         <h1 class="text-huge-title">
                             I am Vira Damayanti, <br>
-                            a web developer based <br>
-                            in Bandung.
+                            a backend developer who builds <br>
+                            and runs systems end to end.
                         </h1>
                     </div>
 
                 </div> <!-- end intro content -->
 
                 <a href="#about" class="intro-scrolldown smoothscroll">
-                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z"/></svg>
+                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
+                        fill-rule="evenodd" clip-rule="evenodd">
+                        <path
+                            d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z" />
+                    </svg>
                 </a>
 
             </section> <!-- end s-intro -->
@@ -113,19 +118,25 @@
                 <div class="row about-info wide" data-animate-block>
 
                     <div class="column lg-5 md-12 about-info__pic-block">
-                        <img src="assets/photo.jpg" alt="" class="about-info__pic" data-animate-el>
+                        <img src="assets/me/photo.jpg" alt="" class="about-info__pic" data-animate-el>
                     </div>
 
                     <div class="column lg-7 md-12">
-                        <div class="about-info__text" >
+                        <div class="about-info__text">
 
                             <h2 class="text-pretitle with-line" data-animate-el>
                                 About
                             </h2>
                             <p class="attention-getter" data-animate-el>
-                                I am backend developer with 1+ year or experience. Passionate about 
+                                I'm a backend developer who builds systems that hold up in production. As the sole
+                                backend engineer at my company, I rebuilt a CRM from scratch, integrated Messenger and
+                                Instagram into a live chat platform, and migrated hosting with zero data loss, cutting
+                                load times from 30 seconds to 500ms. I work mostly in Laravel and PostgreSQL, and I'm
+                                just as comfortable with Docker, CI/CD and servers when something needs fixing. I also
+                                hold an Information Systems degree (GPA 3.90) and have published at IEEE.
                             </p>
-                            <a href="assets/resume.pdf" class="btn btn--medium u-fullwidth" data-animate-el>Download CV</a>
+                            <a href="assets/me/resume.pdf" class="btn btn--medium u-fullwidth" data-animate-el>Download
+                                CV</a>
 
                         </div>
                     </div>
@@ -135,13 +146,53 @@
                 <div class="row about-expertise" data-animate-block>
                     <div class="column lg-12">
 
-                        <h2 class="text-pretitle" data-animate-el>Expertise</h2>
+                        <h2 class="text-pretitle" data-animate-el>Technologies</h2>
 
-                        <ul class="skills-list h1" data-animate-el>
-                            <li>Web Development</li>
-                            <li>System Analysis</li>
-                            <li>Database Design</li>
-                            <li>Writing</li>
+                        <ul class="tech-list" data-animate-el>
+                            <li>
+                                <img src="assets/skills/laravel.svg" alt="Laravel">
+                                <span>Laravel</span>
+                            </li>
+                            <li>
+                                <img src="assets/skills/php.svg" alt="PHP">
+                                <span>PHP</span>
+                            </li>
+                            <li>
+                                <img src="assets/skills/postgresql.svg" alt="PostgreSQL">
+                                <span>PostgreSQL</span>
+                            </li>
+                            <li>
+                                <img src="assets/skills/mysql.svg" alt="MySQL">
+                                <span>MySQL</span>
+                            </li>
+                            <li>
+                                <img src="assets/skills/typesense.svg" alt="Typesense">
+                                <span>Typesense</span>
+                            </li>
+                            <li>
+                                <img src="assets/skills/docker.svg" alt="Docker">
+                                <span>Docker</span>
+                            </li>
+                            <li>
+                                <img src="assets/skills/gitlab.svg" alt="GitLab CI/CD">
+                                <span>GitLab CI/CD</span>
+                            </li>
+                            <li>
+                                <img src="assets/skills/react.svg" alt="React">
+                                <span>React</span>
+                            </li>
+                            <li>
+                                <img src="assets/skills/nextjs.svg" alt="Next.js">
+                                <span>Next.js</span>
+                            </li>
+                            <li>
+                                <img src="assets/skills/nodejs.svg" alt="Node.js">
+                                <span>Node.js</span>
+                            </li>
+                            <li>
+                                <img src="assets/skills/stripe.svg" alt="Stripe">
+                                <span>Stripe</span>
+                            </li>
                         </ul>
 
                     </div>
@@ -162,11 +213,11 @@
                                 <div class="timeline__bullet"></div>
                                 <div class="timeline__header">
                                     <h4 class="timeline__title">College of Contract Management United Kingdom</h3>
-                                    <h5 class="timeline__meta">Backend Developer</h5>
-                                    <p class="timeline__timeframe">Nov 2025 - Present</p>
+                                        <h5 class="timeline__meta">Backend Developer</h5>
+                                        <p class="timeline__timeframe">Nov 2025 - Present</p>
                                 </div>
                                 <div class="timeline__desc">
-                                    <p>Developed an adaptive learning website for college students with cosine similarity algorithm to make study case recommendations to help students solve problems.</p>
+                                    <p>I design, build and maintain production backend services for a UK-based client, including a CRM, a live chat service and a client portal, using Laravel and CodeIgniter 4. I rebuilt the CRM from scratch with PostgreSQL and Typesense after the previous design proved unstable, and integrated Stripe and the Meta Messenger API. On the performance side, I cut Redis CPU usage from 50% to 0.4% and a 50,000-record pagination flow from 30s to 500ms. I also lead incident investigation and root-cause analysis, from a live outage to a DDoS mitigated with UFW and AWS CPU-credit exhaustion, and I run CI/CD pipelines with GitLab CI and Docker/Podman.</p>
                                 </div>
                             </div>
 
@@ -174,26 +225,26 @@
                                 <div class="timeline__bullet"></div>
                                 <div class="timeline__header">
                                     <h4 class="timeline__title">Plato.id</h3>
-                                    <h5 class="timeline__meta">Backend Developer Intern</h5>
-                                    <p class="timeline__timeframe">Sep 2025 - Dec 2025</p>
+                                        <h5 class="timeline__meta">Backend Developer Intern</h5>
+                                        <p class="timeline__timeframe">Sep 2025 - Dec 2025</p>
                                 </div>
                                 <div class="timeline__desc">
-                                    <p>Developed an adaptive learning website for college students with cosine similarity algorithm to make study case recommendations to help students solve problems.</p>
+                                    <p>I designed MySQL and PostgreSQL schemas with scalability in mind and built secured REST APIs, including Google sign-in (OAuth 2.0) and JWT authentication. I also rebuilt a fixed-duration subscription system into a flexible one integrated with the Xendit payment gateway. I worked in an Agile/Scrum team, joining daily stand-ups and discussions with the project manager and stakeholders.</p>
                                 </div>
                             </div>
-                            
+
                             <div class="timeline__block">
                                 <div class="timeline__bullet"></div>
                                 <div class="timeline__header">
                                     <h4 class="timeline__title">Telkom University</h3>
-                                    <h5 class="timeline__meta">Freelance Web Developer</h5>
-                                    <p class="timeline__timeframe">July 2024 - Nov 2024</p>
+                                        <h5 class="timeline__meta">Freelance Web Developer</h5>
+                                        <p class="timeline__timeframe">July 2024 - Nov 2024</p>
                                 </div>
                                 <div class="timeline__desc">
-                                    <p>Developed an adaptive learning website for college students with cosine similarity algorithm to make study case recommendations to help students solve problems.</p>
+                                    <p>I developed an adaptive learning website for 200 college students using PHP and Laravel. It includes a recommendation feature that uses cosine similarity to match students with relevant practice problems. I also configured and deployed it on a Linux VPS, including SSL setup.</p>
                                 </div>
                             </div>
-    
+
                             <div class="timeline__block">
                                 <div class="timeline__bullet"></div>
                                 <div class="timeline__header">
@@ -202,10 +253,10 @@
                                     <p class="timeline__timeframe">July 2023 - September 2023</p>
                                 </div>
                                 <div class="timeline__desc">
-                                    <p>Created an intern presence system system documentation including User Interface, UML Diagrams, and business process.</p>
+                                    <p>I analyzed business requirements and prepared software design documentation using BPMN and UML, which gave me a requirements-first foundation for the development work that followed.</p>
                                 </div>
                             </div>
-    
+
                         </div> <!-- end timeline -->
 
                     </div> <!-- end column -->
@@ -222,27 +273,30 @@
                                 <div class="timeline__bullet"></div>
                                 <div class="timeline__header">
                                     <h4 class="timeline__title">Telkom University</h3>
-                                    <h5 class="timeline__meta">Bachelor's Degree in Information Systems</h5>
-                                    <p class="timeline__timeframe">2024</p>
+                                        <h5 class="timeline__meta">Bachelor's Degree in Information Systems</h5>
+                                        <p class="timeline__timeframe">2024</p>
                                 </div>
                                 <div class="timeline__desc">
-                                    <p>Graduated at 2024 with a GPA of 3.9. Actively participated in students organizations where I honed my leadership, teamwork, and communication skills.</p>
+                                    <p>Graduated at 2024 with a GPA of 3.9. Actively participated in students
+                                        organizations where I honed my leadership, teamwork, and communication skills.
+                                    </p>
                                 </div>
                             </div>
                             <div class="timeline__block">
                                 <div class="timeline__bullet"></div>
                                 <div class="timeline__header">
                                     <h4 class="timeline__title">Generation Girl Bandung</h3>
-                                    <h5 class="timeline__meta">Fullstack Developer Bootcamp</h5>
-                                    <p class="timeline__timeframe">2024</p>
+                                        <h5 class="timeline__meta">Fullstack Developer Bootcamp</h5>
+                                        <p class="timeline__timeframe">2024</p>
                                 </div>
                                 <div class="timeline__desc">
-                                    <p>Enrolled to enhance my skills in web application development. Learned Node.js (Express), MongoDB, with HTML, CSS, and Javascript.</p>
+                                    <p>Enrolled to enhance my skills in web application development. Learned Node.js
+                                        (Express), MongoDB, with HTML, CSS, and Javascript.</p>
                                 </div>
                             </div>
-    
+
                         </div> <!-- end timeline -->
-                        
+
                     </div> <!-- end column -->
 
 
@@ -265,35 +319,90 @@
                         <p class="h1" data-animate-el>
                             Here are a few of my recent favorite works. Feel free to take a look!
                         </p>
-    
+
                         <ul class="folio-list row block-lg-one-half block-stack-on-1000">
 
                             <li class="folio-list__item column" data-animate-el>
                                 <a class="folio-list__item-link" href="#modal-01">
                                     <div class="folio-list__item-pic">
-                                        <img src="assets/mitra-id-1.png" alt="">
+                                        <img src="assets/projects/crm/dashboard.png" alt="Emildon CRM">
                                     </div>
-                                    
+
                                     <div class="folio-list__item-text">
                                         <div class="folio-list__item-cat">
                                             Web Application
                                         </div>
                                         <div class="folio-list__item-title">
-                                            Mitra.id
+                                            Emildon CRM
                                         </div>
                                     </div>
                                 </a>
-                                <a class="folio-list__proj-link" href="#" title="project link">
-                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                <a class="folio-list__proj-link" href="https://staging.theccm.uk" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                                            fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                                    </svg>
                                 </a>
                             </li> <!--end folio-list__item -->
 
                             <li class="folio-list__item column" data-animate-el>
                                 <a class="folio-list__item-link" href="#modal-02">
                                     <div class="folio-list__item-pic">
-                                        <img src="assets/codify-1.png" alt="">
+                                        <img src="assets/projects/livechat/dashboard.png" alt="Emildon Livechat">
                                     </div>
-                                    
+
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Web Application
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Emildon Livechat
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="https://emildon.com" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                                            fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-03">
+                                    <div class="folio-list__item-pic">
+                                        <img src="assets/projects/seo/dashboard.png" alt="SEO Portal">
+                                    </div>
+
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Web Application
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            SEO Portal
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="https://portal.globalskillsmeet.com" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                                            fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-04">
+                                    <div class="folio-list__item-pic">
+                                        <img src="assets/projects/codify/dashboard.png" alt="Codify">
+                                    </div>
+
                                     <div class="folio-list__item-text">
                                         <div class="folio-list__item-cat">
                                             Web Application
@@ -303,48 +412,13 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a class="folio-list__proj-link" href="#" title="project link">
-                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-                                </a>
-                            </li> <!--end folio-list__item -->
-
-                            <li class="folio-list__item column" data-animate-el>
-                                <a class="folio-list__item-link" href="#modal-03">
-                                    <div class="folio-list__item-pic">
-                                        <img src="assets/shipping-1.png" alt="">
-                                    </div>
-                                    
-                                    <div class="folio-list__item-text">
-                                        <div class="folio-list__item-cat">
-                                            API
-                                        </div>
-                                        <div class="folio-list__item-title">
-                                            Shipping API
-                                        </div>
-                                    </div>
-                                </a>
-                                <a class="folio-list__proj-link" href="#" title="project link">
-                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
-                                </a>
-                            </li> <!--end folio-list__item -->
-
-                            <li class="folio-list__item column" data-animate-el>
-                                <a class="folio-list__item-link" href="#modal-04">
-                                    <div class="folio-list__item-pic">
-                                        <img src="assets/digital-daily-1.png" alt="">
-                                    </div>
-                                    
-                                    <div class="folio-list__item-text">
-                                        <div class="folio-list__item-cat">
-                                            Web Application
-                                        </div>
-                                        <div class="folio-list__item-title">
-                                            Digital Daily
-                                        </div>
-                                    </div>
-                                </a>
-                                <a class="folio-list__proj-link" href="#" title="project link">
-                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                <a class="folio-list__proj-link" href="https://codifylearn.my.id/" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                                            fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                                    </svg>
                                 </a>
                             </li> <!--end folio-list__item -->
 
@@ -357,70 +431,85 @@
                     -------------------------------------------- -->
                     <div id="modal-01" hidden>
                         <div class="modal-popup">
-                            <img src="assets/mitra-id-2.png" alt="">
-                
+                            <img src="assets/projects/crm/calendar.png" alt="Emildon CRM">
+
                             <div class="modal-popup__desc">
-                                <h5>Mitra.id</h5>
-                                <p>An E-Commerce platform that supports business partnership between resellers and MSMEs. Features admin dashboard, online course maker, and real-time chat between users. Made with Laravel.</p>
+                                <h5>Emildon CRM</h5>
+                                <p>A multi-tenant CRM I rebuilt from scratch as the sole backend developer, replacing a legacy design that had passed through several hands. It covers pipeline management, task assignment, bulk operations, streaming CSV exports, user-defined custom fields and a recurring-events calendar API. Search runs on Typesense for fast filtering, and it ships to staging through a containerized GitLab CI/CD pipeline.</p>
                                 <ul class="modal-popup__cat">
                                     <li>Web Development</li>
                                     <li>Laravel</li>
+                                    <li>PostgreSQL</li>
+                                    <li>Typesense</li>
+                                    <li>Docker</li>
+                                    <li>GitLab CI/CD</li>
                                 </ul>
                             </div>
-                
-                            <a href="https://mitraid.devgod.my.id/" class="modal-popup__details">Project link</a>
+
+                            <a href="https://staging.theccm.uk" class="modal-popup__details">Project link</a>
                         </div>
                     </div> <!-- end modal -->
 
                     <div id="modal-02" hidden>
                         <div class="modal-popup">
-                            <img src="assets/codify-2.png" alt="">
-                
+                            <img src="assets/projects/livechat/chat.png" alt="Emildon Livechat">
+
                             <div class="modal-popup__desc">
-                                <h5>Codify</h5>
-                                <p>An adaptive e-learning website to help college students learn Python. Features study case recommendations based on question. Made with Laravel and Inertia.</p>
+                                <h5>Emildon Livechat</h5>
+                                <p>A production livechat platform that I maintain and extend, now integrated with Meta Messenger and Instagram so support teams can handle social conversations in the same inbox. I designed the conversation model around durable social identities, kept separate from ephemeral website guests, built the webhook handling, took the integration through Meta App Review, and diagnosed CPU credit exhaustion on the AWS production server.</p>
                                 <ul class="modal-popup__cat">
                                     <li>Web Development</li>
-                                    <li>Natural Language Processing</li>
+                                    <li>Laravel</li>
+                                    <li>PostgreSQL</li>
+                                    <li>Meta Graph API</li>
+                                    <li>Webhooks</li>
+                                    <li>Docker</li>
+                                    <li>AWS</li>
                                 </ul>
                             </div>
 
-                            <a href="https://codifylearn.my.id/" class="modal-popup__details">Project link</a>
-                
+                            <a href="https://emildon.com" class="modal-popup__details">Project link</a>
                         </div>
                     </div> <!-- end modal -->
 
                     <div id="modal-03" hidden>
                         <div class="modal-popup">
-                            <img src="assets/shipping-2.png" alt="">
-                
+                            <img src="assets/projects/seo/login.png" alt="SEO Portal">
+
                             <div class="modal-popup__desc">
-                                <h5>Shipping API</h5>
-                                <p>An API to calculate shipping cost based on city inputs. Made with Python (Flask) and uploaded to Docker.</p>
+                                <h5>SEO Portal</h5>
+                                <p>A project management web app for SEO teams, like Asana but built around SEO workflows, where teams organize projects, track tasks and keep client work in one place. Built with CodeIgniter 4 and vanilla JavaScript and deployed with Docker, it also includes a pagination fix that cut load time on 50,000+ records from about 30 seconds to 500ms.</p>
                                 <ul class="modal-popup__cat">
-                                    <li>API Development</li>
-                                    <li>Flask</li>
+                                    <li>Web Development</li>
+                                    <li>CodeIgniter 4</li>
+                                    <li>MySQL</li>
+                                    <li>Vanilla JS</li>
                                     <li>Docker</li>
                                 </ul>
                             </div>
-                
-                            <a href="https://hub.docker.com/repository/docker/viradamayanti/shippingapi" class="modal-popup__details">Project link</a>
+
+                            <a href="https://portal.globalskillsmeet.com" class="modal-popup__details">Project link</a>
                         </div>
                     </div> <!-- end modal -->
 
                     <div id="modal-04" hidden>
                         <div class="modal-popup">
-                            <img src="assets/digital-daily-2.png" alt="">
-                
+                            <img src="assets/projects/codify/questions.png" alt="Codify">
+
                             <div class="modal-popup__desc">
-                                <h5>Digital Daily</h5>
-                                <p>A platform that facilitates rental and return of electronics with a penalty system for late returns. Made with Laravel.</p>
+                                <h5>Codify</h5>
+                                <p>An adaptive e-learning platform that helps junior college students learn Python through quizzes. Students can&rsquo;t advance until they answer the current question correctly, and a dashboard tracks their progress. After a wrong answer, they can open the most similar study case to that question. I built the matching with basic NLP preprocessing and cosine similarity.</p>
                                 <ul class="modal-popup__cat">
                                     <li>Web Development</li>
+                                    <li>Natural Language Processing</li>
                                     <li>Laravel</li>
+                                    <li>Inertia.js</li>
+                                    <li>React</li>
+                                    <li>MySQL</li>
                                 </ul>
                             </div>
-                
+
+                            <a href="https://codifylearn.my.id/" class="modal-popup__details">Project link</a>
                         </div>
                     </div> <!-- end modal -->
 
@@ -430,7 +519,7 @@
 
             <!-- ### publications
             ================================================== -->
-            <section id="works" class="s-works target-section">
+            <section id="publications" class="s-works target-section">
 
                 <div class="row works-portfolio">
 
@@ -442,15 +531,15 @@
                         <p class="h1" data-animate-el>
                             Here are a few of my publications.
                         </p>
-    
+
                         <ul class="folio-list row block-lg-one-half block-stack-on-1000">
 
                             <li class="folio-list__item column" data-animate-el>
                                 <a class="folio-list__item-link" href="#modal-05">
                                     <div class="folio-list__item-pic">
-                                        <img src="assets/paper-1.png" alt="">
+                                        <img src="assets/publications/mitraid-paper.png" alt="Pengembangan Platform Kerjasama Bisnis UMKM untuk Modul Admin dengan Metode Extreme Programming">
                                     </div>
-                                    
+
                                     <div class="folio-list__item-text">
                                         <div class="folio-list__item-cat">
                                             Paper
@@ -460,8 +549,38 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a class="folio-list__proj-link" href="#" title="project link">
-                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                                <a class="folio-list__proj-link" href="https://ejournal.jak-stik.ac.id/index.php/komputasi/article/view/3641" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                                            fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                                    </svg>
+                                </a>
+                            </li> <!--end folio-list__item -->
+
+                            <li class="folio-list__item column" data-animate-el>
+                                <a class="folio-list__item-link" href="#modal-06">
+                                    <div class="folio-list__item-pic">
+                                        <img src="assets/publications/codify-paper.png" alt="Codify: A Self-Paced Python Learning Platform Built with Design Thinking">
+                                    </div>
+
+                                    <div class="folio-list__item-text">
+                                        <div class="folio-list__item-cat">
+                                            Paper
+                                        </div>
+                                        <div class="folio-list__item-title">
+                                            Codify: A Self-Paced Python Learning Platform Built with Design Thinking
+                                        </div>
+                                    </div>
+                                </a>
+                                <a class="folio-list__proj-link" href="https://ieeexplore.ieee.org/document/10847445/" title="project link">
+                                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                                            fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                                    </svg>
                                 </a>
                             </li> <!--end folio-list__item -->
 
@@ -472,79 +591,10 @@
 
                     <!-- Modal Templates Popup
                     -------------------------------------------- -->
-                    <div id="modal-01" hidden>
-                        <div class="modal-popup">
-                            <img src="assets/mitra-id-2.png" alt="">
-                
-                            <div class="modal-popup__desc">
-                                <h5>Mitra.id</h5>
-                                <p>An E-Commerce platform that supports business partnership between resellers and MSMEs. Features admin dashboard, online course maker, and real-time chat between users. Made with Laravel.</p>
-                                <ul class="modal-popup__cat">
-                                    <li>Web Development</li>
-                                    <li>Laravel</li>
-                                </ul>
-                            </div>
-                
-                            <a href="https://mitraid.devgod.my.id/" class="modal-popup__details">Project link</a>
-                        </div>
-                    </div> <!-- end modal -->
-
-                    <div id="modal-02" hidden>
-                        <div class="modal-popup">
-                            <img src="assets/codify-2.png" alt="">
-                
-                            <div class="modal-popup__desc">
-                                <h5>Codify</h5>
-                                <p>An adaptive e-learning website to help college students learn Python. Features study case recommendations based on question. Made with Laravel and Inertia.</p>
-                                <ul class="modal-popup__cat">
-                                    <li>Web Development</li>
-                                    <li>Natural Language Processing</li>
-                                </ul>
-                            </div>
-
-                            <a href="https://codifylearn.my.id/" class="modal-popup__details">Project link</a>
-                
-                        </div>
-                    </div> <!-- end modal -->
-
-                    <div id="modal-03" hidden>
-                        <div class="modal-popup">
-                            <img src="assets/shipping-2.png" alt="">
-                
-                            <div class="modal-popup__desc">
-                                <h5>Shipping API</h5>
-                                <p>An API to calculate shipping cost based on city inputs. Made with Python (Flask) and uploaded to Docker.</p>
-                                <ul class="modal-popup__cat">
-                                    <li>API Development</li>
-                                    <li>Flask</li>
-                                    <li>Docker</li>
-                                </ul>
-                            </div>
-                
-                            <a href="https://hub.docker.com/repository/docker/viradamayanti/shippingapi" class="modal-popup__details">Project link</a>
-                        </div>
-                    </div> <!-- end modal -->
-
-                    <div id="modal-04" hidden>
-                        <div class="modal-popup">
-                            <img src="assets/digital-daily-2.png" alt="">
-                
-                            <div class="modal-popup__desc">
-                                <h5>Digital Daily</h5>
-                                <p>A platform that facilitates rental and return of electronics with a penalty system for late returns. Made with Laravel.</p>
-                                <ul class="modal-popup__cat">
-                                    <li>Web Development</li>
-                                    <li>Laravel</li>
-                                </ul>
-                            </div>
-                
-                        </div>
-                    </div> <!-- end modal -->
-
                     <div id="modal-05" hidden>
                         <div class="modal-popup">
-                            <img src="assets/paper-2.png" alt="">
-                
+                            <img src="assets/publications/mitraid-paper.png" alt="Pengembangan Platform Kerjasama Bisnis UMKM untuk Modul Admin dengan Metode Extreme Programming">
+
                             <div class="modal-popup__desc">
                                 <h5>Pengembangan Platform Kerjasama Bisnis UMKM untuk Modul Admin dengan Metode Extreme Programming</h5>
                                 <p>This paper details the development of an e-commerce web app for UMKM and resellers, focusing on the admin module, using the Extreme Programming (XP) methodology.</p>
@@ -554,14 +604,33 @@
                                     <li>Web Development</li>
                                 </ul>
                             </div>
-                
+
                             <a href="https://doi.org/10.32409/jikstik.23.3.3641" class="modal-popup__details">Project link</a>
+                        </div>
+                    </div> <!-- end modal -->
+
+                    <div id="modal-06" hidden>
+                        <div class="modal-popup">
+                            <img src="assets/publications/codify-paper.png" alt="Codify: A Self-Paced Python Learning Platform Built with Design Thinking">
+
+                            <div class="modal-popup__desc">
+                                <h5>Codify: A Self-Paced Python Learning Platform Built with Design Thinking</h5>
+                                <p>Co-authored an IEEE paper presenting Codify, a self-paced Python learning platform built with design thinking, whose prototype rated &ldquo;Excellent&rdquo; on five of six User Experience Questionnaire (UEQ) scales and &ldquo;Good&rdquo; on the sixth.</p>
+                                <ul class="modal-popup__cat">
+                                    <li>Publication</li>
+                                    <li>Paper</li>
+                                    <li>Design Thinking</li>
+                                    <li>User Experience</li>
+                                </ul>
+                            </div>
+
+                            <a href="https://ieeexplore.ieee.org/document/10847445/" class="modal-popup__details">Project link</a>
                         </div>
                     </div> <!-- end modal -->
 
                 </div> <!-- end works-portfolio -->
 
-            </section> <!-- end s-works -->
+            </section> <!-- end publications -->
 
 
             <!-- ### contact
@@ -575,7 +644,8 @@
                         </h2>
 
                         <p class="h1">
-                            Feel free to reach out! If you have any inquiries about me, I'd love to hear from you. Send me a message anytime.
+                            Feel free to reach out! If you have any inquiries about me, I'd love to hear from you. Send
+                            me a message anytime.
                         </p>
                     </div>
                 </div> <!-- end contact-top -->
@@ -584,7 +654,8 @@
                     <div class="column lg-4 md-5 tab-6 stack-on-550 contact-block">
                         <h3 class="text-pretitle">Reach me at</h3>
                         <p class="contact-links">
-                            <a href="mailto:viradamayanti56@gmail.com" class="mailtoui">viradamayanti56@gmail.com</a> <br>
+                            <a href="mailto:viradamayanti56@gmail.com" class="mailtoui">viradamayanti56@gmail.com</a>
+                            <br>
                         </p>
                     </div>
                     <div class="column lg-4 md-5 tab-6 stack-on-550 contact-block">
@@ -595,7 +666,8 @@
                         </ul>
                     </div>
                     <div class="column lg-4 md-12 contact-block">
-                        <a href="mailto:viradamayanti56@gmail.com" class="mailtoui btn btn--medium u-fullwidth contact-btn">Say Hello.</a>
+                        <a href="mailto:viradamayanti56@gmail.com"
+                            class="mailtoui btn btn--medium u-fullwidth contact-btn">Say Hello.</a>
                     </div>
                 </div> <!-- end contact-bottom -->
 
@@ -615,7 +687,11 @@
 
                 <div class="ss-go-top">
                     <a class="smoothscroll" title="Back to Top" href="#top">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd" clip-rule="evenodd"><path d="M11 2.206l-6.235 7.528-.765-.645 7.521-9 7.479 9-.764.646-6.236-7.53v21.884h-1v-21.883z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd"
+                            clip-rule="evenodd">
+                            <path
+                                d="M11 2.206l-6.235 7.528-.765-.645 7.521-9 7.479 9-.764.646-6.236-7.53v21.884h-1v-21.883z" />
+                        </svg>
                     </a>
                 </div>
             </div>
@@ -631,4 +707,5 @@
     <script src="js/main.js"></script>
 
 </body>
+
 </html>
